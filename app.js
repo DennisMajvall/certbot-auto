@@ -7,6 +7,6 @@ if (!fs.existsSync('/var/www/html')){ fs.mkdirSync('/var/www/html'); }
 
 app.use(express.static('/var/www/html'));
 
-app.listen(3001, ()=>{
+app.listen(5000, ()=>{
   console.log('listening on port 5000');
 });
